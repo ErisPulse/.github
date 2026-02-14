@@ -1,0 +1,31 @@
+name: 问题咨询
+description: 关于使用或配置的问题
+title: "[Question] "
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        您遇到了什么问题？请详细描述，以便我们更好地帮助您，但如果您的描述不清晰，我们有权拒绝回答。
+
+  - type: textarea
+    id: question
+    attributes:
+      label: 您的问题
+      description: 请详细描述您的问题
+      placeholder: "我想了解如何..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: 相关上下文
+      description: 请提供相关的代码片段、配置文件或错误信息
+      render: python
+
+  - type: input
+    id: version
+    attributes:
+      label: ErisPulse 版本
+      placeholder: "2.3.x"

@@ -1,0 +1,33 @@
+name: 功能请求
+description: 提出一个新功能建议
+title: "[Feature] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢您提出功能建议！请填写以下信息帮助我们理解您的需求。
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: 提出这个问题的背景
+      description: 为什么要提出这个功能，是发生什么事情了吗？
+      placeholder: ""
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: 期望的解决方案
+      description: 请描述您希望实现的解决方案
+      placeholder: "我希望能够..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: 补充信息
+      description: 其他可能有帮助的信息，如截图、参考实现等

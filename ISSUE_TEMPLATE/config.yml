@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 📖 查看文档
+    url: https://github.com/ErisPulse/ErisPulse/tree/main/docs
+    about: 在提交问题前，请先查阅文档
+  - name: 💬 加入讨论
+    url: https://github.com/ErisPulse/ErisPulse/discussions
+    about: 参与社区讨论，分享经验和建议
