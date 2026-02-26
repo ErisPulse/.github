@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://github.com/ErisPulse/ErisPulse/blob/main/.github/assets/erispulse_logo.png" alt="ErisPulse" width="180">
+<img src="https://github.com/ErisPulse/ErisPulse/blob/Develop/v2/.github/assets/erispulse_logo.png" alt="ErisPulse" width="180">
 
 # ErisPulse
 
