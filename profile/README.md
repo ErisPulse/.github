@@ -15,6 +15,6 @@
 
 ---
 
-**[开始使用](https://github.com/ErisPulse/ErisPulse/blob/main/docs/quick-start.md)** · **[反馈问题](https://github.com/ErisPulse/ErisPulse/issues)** · **[参与贡献](https://github.com/ErisPulse/ErisPulse?tab=contributing-ov-file)**
+**[开始使用](https://github.com/ErisPulse/ErisPulse/tree/main/docs/zh-CN/quick-start.md)** · **[反馈问题](https://github.com/ErisPulse/ErisPulse/issues)** · **[参与贡献](https://github.com/ErisPulse/ErisPulse?tab=contributing-ov-file)**
 
 </div>
