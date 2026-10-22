@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="../assets/banner.png" width="1280" alt="ErisPulse：所有故事，始于一句「在吗」" />
+<img src="../assets/banner.png" width="1280" alt="ErisPulse" />
 
 # ErisPulse
 
@@ -38,8 +38,6 @@ epsdk init    # 交互式向导，几分钟跑起第一个机器人
 | [**ErisPulse-ModuleRepo**](https://github.com/ErisPulse/ErisPulse-ModuleRepo) 模块市场 | 社区模块、适配器与 CLI 扩展的源头仓库，`epsdk install` 即装即用 |
 | [**官方网站 · erisdev.com**](https://www.erisdev.com) | 五语言文档与快速上手指南，你的第一个机器人从这里开始 |
 
-> 「所有故事，始于一句『在吗』」
-> —— *Every story begins with "you there?"*
 
 ## 加入社区
 
