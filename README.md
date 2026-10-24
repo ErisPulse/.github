@@ -35,7 +35,7 @@ epsdk init    # 交互式向导，几分钟跑起第一个机器人
 |------|--------------|
 | [**ErisPulse**](https://github.com/ErisPulse/ErisPulse) 主框架 | 一份业务代码跑遍 15+ 平台：统一事件模型、链式发送、热重载、作用域权限管控 |
 | [**ErisPulse-Dashboard**](https://github.com/ErisPulse/ErisPulse-Dashboard) 可视化面板 | 在浏览器里管机器人：系统监控、模块启停、配置编辑、事件流查看 |
-| [**ErisPulse-ModuleRepo**](https://github.com/ErisPulse/ErisPulse-ModuleRepo) 模块市场 | 社区模块、适配器与 CLI 扩展的源头仓库，`epsdk install` 即装即用 |
+| [**ErisPulse-ModuleRepo**](https://github.com/ErisPulse/ErisPulse-ModuleRepo) 模块市场 | 社区模块与适配器的源头仓库，`epsdk install` 即装即用 |
 | [**官方网站 · erisdev.com**](https://www.erisdev.com) | 五语言文档与快速上手指南，你的第一个机器人从这里开始 |
 
 
