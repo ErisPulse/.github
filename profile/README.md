@@ -22,7 +22,7 @@
 
 你会写 Python，想给自己的群聊、社区或内部系统做个机器人。麻烦在于：每个平台的 API、鉴权、消息类型各不相同，同一套逻辑往往要维护好几份代码。
 
-ErisPulse 把平台差异挡在适配器层。业务代码基于 OneBot12 统一事件模型只写一遍，就能部署到 QQ、Telegram、Kook、云湖、微信公众号、Discord、Matrix、邮件等 15+ 平台，平台专有能力也依然直达。插件热重载、多轮对话、权限管控、声明式配置开箱即用，从第一个「hello bot」到长期挂机的自动化系统，用同一套框架。
+ErisPulse 把平台差异挡在适配器层。业务代码基于 OneBot12 统一事件模型只写一遍，就能部署到 QQ、Telegram、Kook、云湖、微信公众号、Discord、Matrix、邮件等 15+ 平台，平台专有能力也依然直达。插件热重载、多轮对话、权限管控、声明式配置开箱即用。
 
 ```bash
 pip install ErisPulse
@@ -36,7 +36,7 @@ epsdk init    # 交互式向导，几分钟跑起第一个机器人
 | [**ErisPulse**](https://github.com/ErisPulse/ErisPulse) 主框架 | 一份业务代码跑遍 15+ 平台：统一事件模型、链式发送、热重载、作用域权限管控 |
 | [**ErisPulse-Dashboard**](https://github.com/ErisPulse/ErisPulse-Dashboard) 可视化面板 | 在浏览器里管机器人：系统监控、模块启停、配置编辑、事件流查看 |
 | [**ErisPulse-ModuleRepo**](https://github.com/ErisPulse/ErisPulse-ModuleRepo) 模块市场 | 社区模块与适配器的源头仓库，`epsdk install` 即装即用 |
-| [**官方网站 · erisdev.com**](https://www.erisdev.com) | 五语言文档与快速上手指南，你的第一个机器人从这里开始 |
+| [**官方网站 · erisdev.com**](https://www.erisdev.com) | 五语言文档与快速上手指南 |
 
 
 ## 加入社区
@@ -44,4 +44,4 @@ epsdk init    # 交互式向导，几分钟跑起第一个机器人
 - 文档与教程：[erisdev.com](https://www.erisdev.com)
 - 问题与想法：[GitHub Discussions](https://github.com/ErisPulse/ErisPulse/discussions)
 
-ErisPulse 基于 MIT 协议开源。写第一个模块、为新的平台做适配器、改进文档，或者只是聊聊你想做什么，都欢迎：发布模块请到 [ModuleRepo 提交](https://github.com/ErisPulse/ErisPulse-ModuleRepo)，参与框架开发请看[主仓贡献指南](https://github.com/ErisPulse/ErisPulse/blob/main/CONTRIBUTING.md)。
+ErisPulse 基于 MIT 协议开源。发布模块请到 [ModuleRepo 提交](https://github.com/ErisPulse/ErisPulse-ModuleRepo)，参与框架开发请看[主仓贡献指南](https://github.com/ErisPulse/ErisPulse/blob/main/CONTRIBUTING.md)。
