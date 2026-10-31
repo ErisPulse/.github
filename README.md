@@ -4,44 +4,54 @@
 
 # ErisPulse
 
-**事件驱动的模块化 Python 机器人框架。一次编写，多平台部署。**
+**Write once, run on 15+ chat platforms. · 一份代码，跑遍 15+ 聊天平台。**
 
 <p>
   <a href="https://github.com/ErisPulse/ErisPulse"><img src="https://img.shields.io/github/stars/ErisPulse/ErisPulse?style=flat-square&logo=github&color=brightgreen" alt="Stars"></a>
   <a href="https://pypi.org/project/ErisPulse/"><img src="https://img.shields.io/pypi/v/ErisPulse?style=flat-square&logo=pypi&logoColor=white" alt="PyPI"></a>
   <a href="https://hub.docker.com/r/erispulse/erispulse"><img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker"></a>
-  <a href="https://www.erisdev.com"><img src="https://img.shields.io/badge/文档-erisdev.com-FF6B9D?style=flat-square&logo=bookstack&logoColor=white" alt="文档"></a>
-  <a href="https://www.erisdev.com/#market"><img src="https://img.shields.io/badge/模块市场-erisdev.com-C724B1?style=flat-square&logo=webpack&logoColor=white" alt="模块市场"></a>
+  <img src="https://raw.githubusercontent.com/ErisPulse/.github/main/assets/badges/powered-by.svg" alt="Powered by ErisPulse">
 </p>
 
-[快速开始](https://www.erisdev.com) · [Dashboard 在线演示](https://dashdemo.erisdev.com) · [模块市场](https://www.erisdev.com/#market) · [讨论区](https://github.com/ErisPulse/ErisPulse/discussions)
+[Website](https://www.erisdev.com) · [Dashboard Demo](https://dashdemo.erisdev.com) · [Module Market](https://www.erisdev.com/#market) · [Discussions](https://github.com/ErisPulse/ErisPulse/discussions)
 
 </div>
 
 ---
 
-你会写 Python，想给自己的群聊、社区或内部系统做个机器人。麻烦在于：每个平台的 API、鉴权、消息类型各不相同，同一套逻辑往往要维护好几份代码。
+## English
 
-ErisPulse 把平台差异挡在适配器层。业务代码基于 OneBot12 统一事件模型只写一遍，就能部署到 QQ、Telegram、Kook、云湖、微信公众号、Discord、Matrix、邮件等 15+ 平台，平台专有能力也依然直达。插件热重载、多轮对话、权限管控、声明式配置开箱即用。
+You know Python and want a bot for your group chat or community. The annoying part: every platform has its own API, auth flow and message types, so the same logic ends up maintained three or four times.
+
+ErisPulse hides platform differences behind adapters. Business code is written once against the OneBot12 event model and deploys to QQ, Telegram, Kook, Yunhu, WeChat, Discord, Matrix, Email and more — platform-specific features stay reachable when you actually need them. Hot reload, permissions and declarative config come with the framework.
 
 ```bash
 pip install ErisPulse
-epsdk init    # 交互式向导，几分钟跑起第一个机器人
+epsdk init
 ```
 
-## 这个组织在维护什么
+| Repo | What it is |
+|------|------------|
+| [ErisPulse](https://github.com/ErisPulse/ErisPulse) | The framework |
+| [ErisPulse-Dashboard](https://github.com/ErisPulse/ErisPulse-Dashboard) | Web admin panel |
+| [ErisPulse-ModuleRepo](https://github.com/ErisPulse/ErisPulse-ModuleRepo) | Module marketplace source |
+| [erisdev.com](https://www.erisdev.com) | Website & docs |
 
-| 项目 | 解决什么问题 |
-|------|--------------|
-| [**ErisPulse**](https://github.com/ErisPulse/ErisPulse) 主框架 | 一份业务代码跑遍 15+ 平台：统一事件模型、链式发送、热重载、作用域权限管控 |
-| [**ErisPulse-Dashboard**](https://github.com/ErisPulse/ErisPulse-Dashboard) 可视化面板 | 在浏览器里管机器人：系统监控、模块启停、配置编辑、事件流查看 |
-| [**ErisPulse-ModuleRepo**](https://github.com/ErisPulse/ErisPulse-ModuleRepo) 模块市场 | 社区模块与适配器的源头仓库，`epsdk install` 即装即用 |
-| [**官方网站 · erisdev.com**](https://www.erisdev.com) | 五语言文档与快速上手指南 |
+Modules get published through [ModuleRepo](https://github.com/ErisPulse/ErisPulse-ModuleRepo). For framework contributions, read the [contributing guide](https://github.com/ErisPulse/ErisPulse/blob/main/CONTRIBUTING.md). MIT licensed.
 
+## 简体中文
 
-## 加入社区
+会 Python，想给群聊或社区做个机器人。麻烦在于：每个平台的 API、鉴权、消息类型都不一样，同一套逻辑往往要维护好几份。
 
-- 文档与教程：[erisdev.com](https://www.erisdev.com)
-- 问题与想法：[GitHub Discussions](https://github.com/ErisPulse/ErisPulse/discussions)
+ErisPulse 把平台差异挡在适配器层：业务代码基于 OneBot12 统一事件模型只写一遍，就能部署到 QQ、Telegram、Kook、云湖、微信公众号、Discord、Matrix、邮件等 15+ 平台，平台专有能力照样直达。热重载、权限管控、声明式配置都是框架自带的。
 
-ErisPulse 基于 MIT 协议开源。发布模块请到 [ModuleRepo 提交](https://github.com/ErisPulse/ErisPulse-ModuleRepo)，参与框架开发请看[主仓贡献指南](https://github.com/ErisPulse/ErisPulse/blob/main/CONTRIBUTING.md)。
+安装与初始化命令见上方代码块。
+
+| 仓库 | 干什么用 |
+|------|----------|
+| [ErisPulse](https://github.com/ErisPulse/ErisPulse) | 主框架 |
+| [ErisPulse-Dashboard](https://github.com/ErisPulse/ErisPulse-Dashboard) | Web 管理面板 |
+| [ErisPulse-ModuleRepo](https://github.com/ErisPulse/ErisPulse-ModuleRepo) | 模块市场源仓库 |
+| [erisdev.com](https://www.erisdev.com) | 官网与文档 |
+
+模块发布走 [ModuleRepo](https://github.com/ErisPulse/ErisPulse-ModuleRepo)，参与框架开发先看[贡献指南](https://github.com/ErisPulse/ErisPulse/blob/main/CONTRIBUTING.md)。基于 MIT 协议开源。
