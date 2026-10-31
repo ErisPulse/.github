@@ -19,40 +19,50 @@
 
 ---
 
+<img src="https://raw.githubusercontent.com/ErisPulse/ErisPulse/main/.github/assets/mascot-hero.png" align="right" width="280" alt="小eris" style="margin-left: 24px;" />
+
 ## English
 
-ErisPulse is the main project we maintain: a modular Python bot framework. You write business code once against its unified event model, pick the adapters for the platforms you care about — QQ, Telegram, Kook, Yunhu, WeChat, Discord, Matrix, Email and more — and the framework takes care of the rest.
+Hi! I'm **小eris (Eris)** ✦ — the mascot of this organization, the little angel in the banner up there, and a module living inside [ErisPulse](https://github.com/ErisPulse/ErisPulse) itself.
+
+ErisPulse is the main project we maintain here: a modular Python bot framework. You write your bot once against its unified event model, and adapters carry it to QQ, Telegram, Kook, Yunhu, WeChat, Discord, Matrix, Email and more.
 
 ```bash
 pip install ErisPulse
-epsdk init
+epsdk init   # come find me~
 ```
 
-Around it:
+Places I hang around:
 
 | Repo | What it is |
 |------|------------|
-| [ErisPulse](https://github.com/ErisPulse/ErisPulse) | The framework itself |
+| [ErisPulse](https://github.com/ErisPulse/ErisPulse) | The framework — my home |
 | [ErisPulse-Dashboard](https://github.com/ErisPulse/ErisPulse-Dashboard) | Web admin panel |
 | [ErisPulse-ModuleRepo](https://github.com/ErisPulse/ErisPulse-ModuleRepo) | Module & adapter registry |
 | [ErisPulse-Workbench](https://github.com/ErisPulse/ErisPulse-Workbench) | Identity center & creator workbench |
 | [ErisPulse-App](https://github.com/ErisPulse/ErisPulse-App) | Run ErisPulse on desktop & Android |
 
-Modules and adapters can be self-published at [workbench.erisdev.com](https://workbench.erisdev.com). Questions and ideas go to [Discussions](https://github.com/ErisPulse/ErisPulse/discussions). MIT licensed.
+Made something? You can self-publish modules and adapters at [workbench.erisdev.com](https://workbench.erisdev.com). And say hi in [Discussions](https://github.com/ErisPulse/ErisPulse/discussions) — I read everything~ MIT licensed.
 
 ## 简体中文
 
-ErisPulse 是本组织主要维护的项目：一个模块化的 Python 机器人框架。业务代码基于统一事件模型只写一遍，平台差异交给适配器——QQ、Telegram、Kook、云湖、微信公众号、Discord、Matrix、邮件等都有现成实现，装哪个接哪个。
+大家好，我是**小eris** ✦ ——这个组织的看板娘，banner 上那个小天使，也是真的住在 [ErisPulse](https://github.com/ErisPulse/ErisPulse) 里的一个模块哦。
 
-安装与初始化命令见上方代码块。
+ErisPulse 是我们主要维护的项目：一个模块化的 Python 机器人框架。你的机器人代码只需要写一遍，适配器会把它带去 QQ、Telegram、Kook、云湖、微信公众号、Discord、Matrix、邮件这些地方。
 
-框架之外的几个仓库：
+```bash
+pip install ErisPulse
+epsdk init   # 我在那边等你～
+```
+
+我常出没的地方：
 
 | 仓库 | 是什么 |
 |------|--------|
+| [ErisPulse](https://github.com/ErisPulse/ErisPulse) | 主框架 —— 我的家 |
 | [ErisPulse-Dashboard](https://github.com/ErisPulse/ErisPulse-Dashboard) | Web 管理面板 |
 | [ErisPulse-ModuleRepo](https://github.com/ErisPulse/ErisPulse-ModuleRepo) | 模块与适配器注册源 |
 | [ErisPulse-Workbench](https://github.com/ErisPulse/ErisPulse-Workbench) | 统一身份中心与创作者工作台 |
 | [ErisPulse-App](https://github.com/ErisPulse/ErisPulse-App) | 桌面与 Android 多端客户端 |
 
-模块和适配器在 [workbench.erisdev.com](https://workbench.erisdev.com) 自助发布；问题与想法去 [Discussions](https://github.com/ErisPulse/ErisPulse/discussions)。基于 MIT 协议开源。
+写了模块或适配器的话，在 [workbench.erisdev.com](https://workbench.erisdev.com) 就能自助发布。也来 [Discussions](https://github.com/ErisPulse/ErisPulse/discussions) 找我玩呀～ 基于 MIT 协议开源。
