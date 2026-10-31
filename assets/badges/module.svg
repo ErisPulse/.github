@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="126" height="28" viewBox="0 0 126 28" role="img" aria-label="ErisPulse: Module">
+  <title>ErisPulse: Module</title>
+  <linearGradient id="g" x2="0" y2="1">
+    <stop offset="0" stop-color="#ffffff" stop-opacity=".14"/>
+    <stop offset="1" stop-color="#000000" stop-opacity=".08"/>
+  </linearGradient>
+  <clipPath id="c"><rect width="126" height="28" rx="6" fill="#fff"/></clipPath>
+  <g clip-path="url(#c)">
+    <rect width="70.4" height="28" fill="#3A4A6B"/>
+    <rect x="70.4" width="56.400000000000006" height="28" fill="#4A90D9"/>
+    <rect width="126" height="28" fill="url(#g)"/>
+  </g>
+  <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" font-size="11" font-weight="700">
+    <text x="35.2" y="18">ErisPulse</text>
+    <text x="98.60000000000001" y="18">Module</text>
+  </g>
+</svg>
