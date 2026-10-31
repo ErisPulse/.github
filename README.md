@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/banner.png" width="1280" alt="ErisPulse" />
+<img src="https://raw.githubusercontent.com/ErisPulse/.github/main/assets/banner.png" width="1280" alt="ErisPulse" />
 
 # ErisPulse
 
@@ -23,7 +23,12 @@
 
 ## English
 
-Hi! I'm **小eris (Eris)** ✦ — the mascot of this organization, the little angel in the banner up there, and a module living inside [ErisPulse](https://github.com/ErisPulse/ErisPulse) itself.
+<p>
+  <audio controls preload="none" src="https://raw.githubusercontent.com/ErisPulse/.github/main/assets/eris-intro.mp3"></audio>
+  <a href="https://raw.githubusercontent.com/ErisPulse/.github/main/assets/eris-intro.mp3"><sub>▶ listen / 听听小eris的声音</sub></a>
+</p>
+
+Hi! I'm **小eris (Eris)** ✦ — the mascot of this organization, the little angel in the banner up there.
 
 ErisPulse is the main project we maintain here: a modular Python bot framework. You write your bot once against its unified event model, and adapters carry it to QQ, Telegram, Kook, Yunhu, WeChat, Discord, Matrix, Email and more.
 
@@ -46,7 +51,12 @@ Made something? You can self-publish modules and adapters at [workbench.erisdev.
 
 ## 简体中文
 
-大家好，我是**小eris** ✦ ——这个组织的看板娘，banner 上那个小天使，也是真的住在 [ErisPulse](https://github.com/ErisPulse/ErisPulse) 里的一个模块哦。
+<p>
+  <audio controls preload="none" src="https://raw.githubusercontent.com/ErisPulse/.github/main/assets/eris-intro.mp3"></audio>
+  <a href="https://raw.githubusercontent.com/ErisPulse/.github/main/assets/eris-intro.mp3"><sub>▶ listen / 听听小eris的声音</sub></a>
+</p>
+
+大家好，我是**小eris** ✦ ——这个组织的看板娘，banner 上那个小天使。
 
 ErisPulse 是我们主要维护的项目：一个模块化的 Python 机器人框架。你的机器人代码只需要写一遍，适配器会把它带去 QQ、Telegram、Kook、云湖、微信公众号、Discord、Matrix、邮件这些地方。
 
